@@ -12,5 +12,23 @@
         "debug": "nodemon --exec node --inspect-brk=0.0.0.0:9229 --require ts-node/register src/app.ts"
     },
     "author": "Andrii Hallahuz",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.2",
+        "module-alias": "^2.2.2"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.18",
+        "@typescript-eslint/eslint-plugin": "^5.37.0",
+        "@typescript-eslint/parser": "^5.37.0",
+        "eslint": "^8.23.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.5.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.7.1",
+        "ts-node": "^10.9.1",
+        "tsconfig-paths": "^4.1.0"
+    }
 }
