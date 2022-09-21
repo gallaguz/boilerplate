@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Boilerplate TS project",
     "main": "src/app.ts",
+    "_moduleAliases": {
+        "@app": "./dist"
+    },
     "scripts": {
         "start": "node -r module-alias/register ./dist/app.js",
         "dev": "nodemon",
